@@ -37,4 +37,13 @@ public class VideoCacheModule extends ReactContextBaseJavaModule {
         promise.resolve(this.proxy.getProxyUrl(url));
     }
 
+    @ReactMethod
+    public void preload(String url, Promise promise) {
+        if (this.proxy == null) {
+            this.proxy = new HttpProxyCacheServer(this.reactContext);
+        }
+        this.proxy.preload(url);
+        promise.resolve("Preloading started for: " + url);
+    }
+
 }
