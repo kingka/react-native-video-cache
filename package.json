@@ -1,21 +1,21 @@
 {
-  "name": "react-native-video-cache",
+  "name": "react-native-video-cache-rh",
   "title": "React Native Video Cache",
-  "version": "2.7.4",
-  "description": "Boost performance on online video loading and caching",
+  "version": "2.7.5",
+  "description": "Boost performance on online video loading and caching,add preload",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhigang1992/react-native-video-cache.git",
-    "baseUrl": "https://github.com/zhigang1992/react-native-video-cache"
+    "url": "git+https://github.com/kingka/react-native-video-cache.git",
+    "baseUrl": "https://github.com/kingka/react-native-video-cache.git"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Kyle Fang",
-    "email": "zhigang1992@gmail.com"
+    "name": "kingka",
+    "email": "kingkazhang@163.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
